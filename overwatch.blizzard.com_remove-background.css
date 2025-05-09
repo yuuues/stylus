@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           overwatch.blizzard.com/en-us/news/patch-notes/
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://overwatch.blizzard.com/en-us/news/patch-notes/"), url-prefix("https://overwatch.blizzard.com/es-es/news/patch-notes/") {
+    
+    .background-active{
+        background: white!important;
+    }
+    .PatchNotes-body{
+        color: black;
+        fill: none!important;
+        text-shadow: none!important;
+    }
+}
