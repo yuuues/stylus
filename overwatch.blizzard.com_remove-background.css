@@ -11,11 +11,17 @@
 @-moz-document url-prefix("https://overwatch.blizzard.com/en-us/news/patch-notes/"), url-prefix("https://overwatch.blizzard.com/es-es/news/patch-notes/") {
     
     .background-active{
-        background: white!important;
+        background-image: url('https://static.playoverwatch.com/img/pages/blog/bg-news-372021274d.jpg');
     }
     .PatchNotes-body{
-        color: black;
+        color: white;
         fill: none!important;
         text-shadow: none!important;
+    }
+    .PatchNotes-patch .PatchNotesHeroUpdate{
+        border: 2px solid rgba(255, 255, 255, .2);
+    }
+    .PatchNotes-patch .PatchNotesHeroUpdate-header {
+        background-color: rgba(255, 255, 255, .1);
     }
 }
