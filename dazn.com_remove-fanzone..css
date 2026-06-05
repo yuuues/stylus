@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           DAZN.com - Remove "FanZone"
 @namespace      userstyles.world
-@version        20250411
-@description    Remove FANZONE
+@version        20260605
+@description    Remove FANZONE and Big Player
 @author         github.com/yuuues
 @license        CC-BY-SA-4.0
-@updateURL      https://raw.githubusercontent.com/yuuues/stylus/refs/heads/main/dazn.com_remove-fanzone.css
+@updateURL      https://raw.githubusercontent.com/yuuues/stylus/refs/heads/main/dazn.com_remove-fanzone..css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.dazn.com/") {
@@ -13,5 +13,8 @@
     [class^="main__player-aside___"] {
         display: none !important;
     }
-
+    
+    section[data-target="player-layout"] {
+        width: 99vw;
+    }
 }
