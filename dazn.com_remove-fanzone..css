@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DAZN.com - Remove "FanZone"
 @namespace      userstyles.world
-@version        20260605
+@version        20260606
 @description    Remove FANZONE and Big Player
 @author         github.com/yuuues
 @license        CC-BY-SA-4.0
@@ -16,5 +16,10 @@
     
     section[data-target="player-layout"] {
         width: 99vw;
+    }
+
+    section[data-target="player-layout"] div {
+        max-height:1200px!important;
+        max-width: 99vw!important;
     }
 }
